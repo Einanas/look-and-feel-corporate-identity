@@ -6,6 +6,14 @@
   --unimportant-text: gray;
 }
 
+/* --lightblue: #7faec5;
+--background: #fafafa;
+--green: #4ecd5d;
+--darkblue: #384b61;
+--darkerblue: #0E373F;
+--darkgreen: #006319;
+--lightgreen: #9CD67D; */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -22,7 +30,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #ffffff;
 }
 
@@ -276,6 +284,15 @@ a {
 
 .awesome-article .explore-btn:hover {
   background-color: #004080;
+}
+
+.article.info {
+  background-color: #0050C2;
+  
+}
+
+.h2.sub1 {
+  color: var(--Sub-title);
 }
 
 /* footer */
